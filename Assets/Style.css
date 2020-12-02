@@ -54,4 +54,18 @@ section{
     text-align: center;
     border-radius: 5px;
     width: 95%;
+    height: auto;
+    padding-bottom: 25px;
+}
+.resultBody .link{
+    text-decoration: none;
+    border: 1px solid #00008B;
+    color: white;
+    background-color: #00008B;
+    padding: 10px;
+    border-radius: 5px;
+}
+.resultBody .link:hover{
+    color: #00008B;
+    background-color: white;
 }
