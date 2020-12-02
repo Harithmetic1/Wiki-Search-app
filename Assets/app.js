@@ -10,7 +10,7 @@ async function apiCall(){
         alert('Please input something to search');
         return false;
     }
-    let fetchUrl = await fetch('http://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=30&srsearch=%27' + queryTerm);
+    let fetchUrl = await fetch('https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=30&srsearch=%27' + queryTerm);
     let data = await fetchUrl.json();
     console.log(data);
 
